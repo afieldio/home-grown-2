@@ -1,0 +1,22 @@
+{
+  "name": "homegrown",
+  "version": "1.0.0",
+  "description": "Software for an Aquaponics Sytem",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afieldio/home-grown-2.git"
+  },
+  "keywords": [
+    "Aquaponics"
+  ],
+  "author": "Adam Field",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afieldio/home-grown-2/issues"
+  },
+  "homepage": "https://github.com/afieldio/home-grown-2#readme"
+}

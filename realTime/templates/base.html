@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+  <head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TITLE -->
+    <title>Home Grow | Real Time</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{%  static 'TODO' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/main.min.css'%}">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    {% block head %}
+    {% endblock %}
+
+    
+
+  </head>
+  <body>
+    {% block content %}
+    {% endblock %}
+  </body>
+    {% block endscript %}
+    {% endblock %}
+</html>
