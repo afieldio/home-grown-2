@@ -1,3 +1,4 @@
 homeGrown/settings.py
 *.pyc
 node_modules
+realTime/static/srcImages

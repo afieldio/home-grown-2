@@ -17,19 +17,19 @@ var gzip_options = {
 
 /* Compile Our Sass */
 gulp.task('sass', function() {
-    return gulp.src('portfolio/static/portfolio/scss/main.scss')
+    return gulp.src('realTime/static/sass/main.scss')
         .pipe(sass())
-        .pipe(gulp.dest('portfolio/static/portfolio/css'))
+        .pipe(gulp.dest('realTime/static/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss())
-        .pipe(gulp.dest('portfolio/static/portfolio/css'))
+        .pipe(gulp.dest('realTime/static/css'))
         .pipe(livereload());
 });
 
 gulp.task('image', function() {
-    gulp.src('portfolio/static/portfolio/images/*')
+    gulp.src('realTime/static/srcImages/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('portfolio/static/portfolio/img/'))
+        .pipe(gulp.dest('realTime/static/img/'))
 });
 
 

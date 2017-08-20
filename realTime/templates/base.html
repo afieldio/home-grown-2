@@ -9,23 +9,27 @@
     <!-- TITLE -->
     <title>Home Grow | Real Time</title>
 
+    <!-- Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-    
-    <!-- STYLE SHEETS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="{%  static 'TODO' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/main.min.css'%}">
+    <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'realTime/static/css/main.min.css'%}">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{%  static 'TODO' %}">
 
     {% block head %}
     {% endblock %}
 
-    
 
   </head>
   <body>
     {% block content %}
+    <h1>Home Page</h1>
     {% endblock %}
   </body>
     {% block endscript %}
